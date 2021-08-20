@@ -1,0 +1,251 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/items/index",
+			"style": {
+				"navigationBarTitleText": "项目",
+				"enablePullDownRefresh": true
+			}
+		},
+		
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/stats/index",
+			"style": {
+				"navigationBarTitleText": "统计",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/items/price",
+			"style": {
+				"navigationBarTitleText": "代理价格",
+				"enablePullDownRefresh": true
+			}
+		},{
+			"path": "pages/items/agent",
+			"style": {
+				"navigationBarTitleText": "代理主页",
+				"enablePullDownRefresh": true
+			}
+		},{
+			"path": "pages/items/team",
+			"style": {
+				"navigationBarTitleText": "推广列表",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/stats/idCard",
+			"style": {
+				"navigationBarTitleText": "身份证"		
+			}
+		},
+		{
+			"path": "pages/stats/bankCard",
+			"style": {
+				"navigationBarTitleText": "银行卡"		
+			}
+		},
+		{
+			"path": "pages/stats/review",
+			"style": {
+				"navigationBarTitleText": "审核状态"		
+			}
+		},
+		{
+			"path": "pages/stats/review",
+			"style": {
+				"navigationBarTitleText": "审核结果"			
+			}
+		},
+		{
+			"path": "pages/order/index",
+			"style": {
+				"navigationBarTitleText": "订单"
+			}
+		},
+		{
+			"path": "pages/order/info",
+			"style": {
+				"navigationBarTitleText": "订单明细"
+			}
+		},
+		{
+			"path": "pages/order/guide",
+			"style": {
+				"navigationBarTitleText": "教程"
+			}
+		},
+		{
+			"path": "pages/center/dataDetail",
+			"style": {
+				"navigationBarTitleText": "申请资料"
+			}
+		},
+
+		{
+			"path": "pages/user/withdrawal",
+			"style": {
+				"navigationBarTitleText": "提现"
+			}
+		},
+		{
+			"path": "pages/order/task",
+			"style": {
+				"navigationBarTitleText": "任务"
+			}
+		},
+		{
+			"path": "pages/user/info",
+			"style": {
+				"navigationBarTitleText": "我的资料"
+			}
+		},
+		{
+			"path": "pages/user/accountRecord",
+			"style": {
+				"navigationBarTitleText": "资金明细",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/user/fixingCode",
+			"style": {
+				"navigationBarTitleText": "固码抢单"
+			}
+		},
+		{
+			"path": "pages/user/fixingCodeInfo",
+			"style": {
+				"navigationBarTitleText": "抢单固定码"
+			}
+		},
+		{
+			"path": "pages/user/team",
+			"style": {
+				"navigationBarTitleText": "我的团队",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/user/inviteInfo",
+			"style": {
+				"navigationBarTitleText": "推广下级"
+			}
+		},
+		{
+			"path": "pages/user/advice",
+			"style": {
+				"navigationBarTitleText": "意见反馈"
+			}
+		},
+		{
+			"path": "pages/user/download",
+			"style": {
+				"navigationBarTitleText": "下载"
+			}
+		},
+		{
+			"path": "pages/user/accountBinding",
+			"style": {
+				"navigationBarTitleText": "账户绑定"
+			}
+		},
+		{
+			"path": "pages/user/psw",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		},
+		{
+			"path": "pages/open/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/open/reg",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/open/code",
+			"style": {
+				"navigationBarTitleText": "注册成功"
+			}
+		},
+		{
+			"path": "pages/user/resetPsw",
+			"style": {
+				"navigationBarTitleText": "重置密码"
+			}
+		}
+        ,{
+            "path" : "pages/user/myAdvice",
+            "style" : {
+				"navigationBarTitleText": "我的反馈",
+				"enablePullDownRefresh": true
+			}
+        }
+    ],
+	"tabBar": {
+		"color": "#bfbfbf",
+		"selectedColor": "#FF5733",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/home.jpg",
+				"selectedIconPath": "static/tabbar/home_cur.jpg",
+				"text": "首页"
+			},
+
+			{
+				"pagePath": "pages/items/index",
+				"iconPath": "static/tabbar/component.jpg",
+				"selectedIconPath": "static/tabbar/component_cur.jpg",
+				"text": "项目"
+			},
+			{
+				"pagePath": "pages/stats/index",
+				"iconPath": "static/tabbar/basics.jpg",
+				"selectedIconPath": "static/tabbar/basics_cur.jpg",
+				"text": "收益"
+			},
+			// {
+			// 	"pagePath": "pages/center/index",
+			// 	"iconPath": "static/tabbar/plugin.png",
+			// 	"selectedIconPath": "static/tabbar/plugin_cur.png",
+			// 	"text": "抢单"
+			// },
+			{
+				"pagePath": "pages/user/index",
+				"iconPath": "static/tabbar/about.jpg",
+				"selectedIconPath": "static/tabbar/about_cur.jpg",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		// "navigationBarTitleText": "uni-app",
+		"navigationStyle": "custom",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
